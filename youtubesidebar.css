@@ -1,0 +1,47 @@
+.sidebar{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    bottom: 0;
+    top: 60px;
+    background-color: white;
+    width: 60px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+ 
+    
+
+.home{
+    width: 30px;
+   
+    margin-left: 20px;
+}
+.tex{
+    
+    width: 74px;
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+.tex:hover{
+    background-color: rgb(235,235,235);
+    margin-bottom: 2px;
+   } 
+   .tex img{
+    height:24px ;
+    margin-bottom: 10px;
+    padding-right: 20px;
+   }
+   .tex div{
+    font-size: 10px;
+    font-family: arial;
+   }
+    

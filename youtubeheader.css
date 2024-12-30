@@ -1,0 +1,129 @@
+.header{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(220, 220, 220);
+    z-index: 1;
+}
+.left-section{
+    
+   
+    display: flex;
+    align-items: center;
+}
+.middle-section{
+    display: flex;
+    flex: 1;
+    
+    margin-left: 70;
+    margin-right: 35;
+    max-width: 500px;
+    align-items: center;
+    
+}
+.right-section{
+    display: flex;
+    align-items: center;
+    width: 180px;
+    margin-right: 20px;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+.hamburgur{
+    height: 24px;
+    margin-right: 26px;
+    margin-left: 24px;
+}
+.ytlogo{
+    height: 20px;
+}
+.search{
+    height: 44px;
+    border-color: rgb(192, 192, 192);
+    width: 60px;
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    margin-left: -1px;
+    margin-right: 10px;
+    
+}
+
+
+.search .tooltips1 ,.createcontainer .tooltips1, .voice .tooltips2, .ytappscontainer .tooltips1, .notificationscon .tooltips1 {
+position: absolute;
+color: white;
+background-color: gray;
+padding-top: 4px;
+padding-bottom: 4px;
+padding-left: 8px;
+padding-right: 8px;
+border-radius: 2px;
+bottom: -30px;
+font-family: arial;
+opacity: 0;
+transition: 300ms;
+pointer-events: none;
+white-space: nowrap;
+}
+.search:hover .tooltips1, .createcontainer:hover .tooltips1, .voice:hover .tooltips2, .ytappscontainer:hover .tooltips1, .notificationscon:hover .tooltips1 {
+
+opacity: 1;
+}
+
+.voice{
+    height: 44px;
+    width: 44px;
+    border: none;
+    border-radius: 22px;
+    background-color: rgba(237, 236, 236, 0.6);
+    position: relative;
+}
+
+
+.voiceimg{
+    height: 25px;
+    
+}
+.searchbar{
+    flex: 1;
+    height: 40px;
+    font-size: 16px;
+    border-color: rgb(192, 192, 192);
+    border-width: 1px;
+    border-style: solid;
+    padding-left: 14px;
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgb(0, 0, 0,0.05);
+}
+.searchbar::placeholder{
+    font-family: roboto, arial ;
+    font-size: 16px;
+   
+}
+.search-icon{
+    height: 25px;
+}
+.createvidimg{
+    height: 25px;
+    
+}
+.notificationsimg{
+    height: 25px;
+}
+.ytappsimg{
+    height: 25px;
+}
+.pfpofchan{
+    height: 25px;
+    border-radius: 13px;
+}
